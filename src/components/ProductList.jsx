@@ -12,3 +12,5 @@ function ProductList({ products }) {
 }
 
 export default ProductList;
+
+//Task 5: Each item has a  unique key that is assigned according to the id of the item in the array.
