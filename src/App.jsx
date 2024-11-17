@@ -1,3 +1,4 @@
+//Task 2: Create the App Component
 import React, { useState } from 'react';
 import ProductList from './components/ProductList';
 import AddProductForm from './components/AddProductForm';
@@ -8,6 +9,8 @@ function App() {
     { id: 2, name: 'Product B', price: 150, description: 'Description of Product B' },
   ]);
 
+
+  //Task 7: Pass Data between Components
   const addProduct = (newProduct) => {
     setProducts([...products, { id: products.length + 1, ...newProduct }]);
   };

@@ -1,3 +1,4 @@
+//Task 4: Create the ProductItem component
 import React from 'react';
 
 function ProductItem({ product }) {

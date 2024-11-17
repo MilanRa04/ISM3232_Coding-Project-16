@@ -1,3 +1,4 @@
+//Task 6: Create the AddProductForm component
 import React, { useState } from 'react';
 
 function AddProductForm({ onAddProduct }) {
