@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProductList from './components/ProductList';
-import AddProductForm from './AddProductForm';
+import AddProductForm from './components/AddProductForm';
 
 function App() {
   const [products, setProducts] = useState([
